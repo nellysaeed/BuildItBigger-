@@ -25,7 +25,7 @@ public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
     protected String doInBackground(Void... params){
         if(myApiService == null) {
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(), new AndroidJsonFactory(), null)
-                    .setRootUrl("https://builditbigger-140415.appspot.com/_ah/api/");
+                    .setRootUrl("http://10.0.2.2:8080/_ah/api/");
 
             myApiService = builder.build();
         }
