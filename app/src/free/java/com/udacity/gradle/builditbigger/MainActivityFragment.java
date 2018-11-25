@@ -15,10 +15,6 @@
     import com.google.android.gms.ads.InterstitialAd;
     import com.nadeveloper.jokeactivity.JokeActivity;
 
-
-    /**
-     * A placeholder fragment containing a simple view.
-     */
     public class MainActivityFragment extends Fragment implements OnTaskCompleted {
         InterstitialAd mInterstitialAd;
         Button mJokeButton;
